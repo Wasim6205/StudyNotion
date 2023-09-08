@@ -51,8 +51,6 @@ const CodeBlocks = ({
             <p>13</p>
             <p>14</p>
             <p>15</p>
-            <p>16</p>
-            <p>17</p>
         </div>
         <div className={`w-[90%] flex flex-col gap-2 font-bold font-mono pr-2 ${codeColor}`}>
             <TypeAnimation
