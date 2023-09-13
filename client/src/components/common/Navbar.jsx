@@ -45,6 +45,7 @@ const Navbar = () => {
 
 
     useEffect( () => {
+        console.log("PRINTING TOKEN", token);
         fetchSublinks();
     },[] )
 
@@ -70,7 +71,7 @@ const Navbar = () => {
                  <li key={index}>
                     {
                         link.title === "Catalog" ? (
-                            <div className='relative cursor-pointer flex items-center gap-2 group'>
+                            <div className='relative flex items-center gap-2 group'>
                                 <p>{link.title}</p>
                                 <IoIosArrowDropdownCircle/>
 
