@@ -1,4 +1,4 @@
-const BASE_URL = JSON.stringify(import.meta.env.REACT_APP_BASE_URL);
+const BASE_URL = JSON.stringify(import.meta.env.VITE_REACT_APP_BASE_URL);
 
 // AUTH ENDPOINTS
 export const endpoints = {

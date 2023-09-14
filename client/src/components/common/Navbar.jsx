@@ -24,7 +24,7 @@ const subLinks = [
 
 
 const Navbar = () => {
-    console.log("Printing base url: ",JSON.stringify(import.meta.env.REACT_APP_BASE_URL));
+    // console.log("Printing base url: ",JSON.stringify(import.meta.env.VITE_REACT_APP_BASE_URL));
     const {token} = useSelector( (state) => state.auth );
     const {user} = useSelector( (state) => state.profile );
     const {totalItems} = useSelector( (state) => state.cart )
